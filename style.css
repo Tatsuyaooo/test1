@@ -81,7 +81,7 @@ list-style-type: none;
 #header ul.guide li {
 display: inline;
 padding: 0 4px 0 8px; /* 項目のパディング（上右下左） */
-background: url(../image/menu_line_gray.gif) no-repeat left; /* 項目の背景（区切り線） */
+background: url(menu_line_gray.jpg) no-repeat left; /* 項目の背景（区切り線） */
 }
 /* 最初の項目 */
 #header ul.guide li.first {
@@ -91,7 +91,7 @@ background: none; /* 区切り線なし */
 /* --- オープニングエリア（トップページ） --- */
 #header div.opening {
 padding: 8px 0; /* オープニングエリアのパディング（上下、左右） */
-background: #eee2d0 url(../image/opening_back2.gif) repeat-x top; /* オープニングエリアの背景 */
+background: #eee2d0 url(opening_back2.jpg) repeat-x top; /* オープニングエリアの背景 */
 border-bottom: 1px #402900 solid; /* オープニングエリアの下境界線 */
 }
 /* オープニングエリア内の見出し */
@@ -101,7 +101,7 @@ margin: 0;
 
 /* --- ヘッダメニュー --- */
 #header div.nl {
-background: #402700 url(../image/hor_menu7_off.gif) repeat-x top; /* ヘッダメニューの背景 */
+background: #402700 url(hor_menu7_off.jpg) repeat-x top; /* ヘッダメニューの背景 */
 border-top: 1px #4d3d21 solid; /* ヘッダメニューの上境界線 */
 border-bottom: 2px #402900 solid; /* ヘッダメニューの下境界線 */
 }
@@ -148,7 +148,7 @@ color: #eee8aa; /* 英字の文字色 */
 /* ポイント時とアクティブ時の設定 */
 #header div.nl li a:hover,
 #header div.nl li.active a {
-background: #4d3400 url(../image/hor_menu7_on.gif) repeat-x top; /* ポイント時（アクティブ時）の背景 */
+background: #4d3400 url(hor_menu7_on.jpg) repeat-x top; /* ポイント時（アクティブ時）の背景 */
 }
 #header div.nl li a:hover span.en,
 #header div.nl li.active span.en {
@@ -173,7 +173,7 @@ display: inline;
 /* リンクエリア */
 #header div.topicPath li a {
 padding-right: 12px; /* リンクエリアの右パディング */
-background: url(../image/topic_path_gray.gif) no-repeat right; /* リンクエリアの背景（区切り記号） */
+background: url(topic_path_gray.jpg) no-repeat right; /* リンクエリアの背景（区切り記号） */
 }
 
 /* --- 罫線 --- */
@@ -239,7 +239,7 @@ line-height: 160%; /* 行の高さ */
 #main div.emphasis {
 margin-bottom: 3em; /* セクションの下マージン（上書き） */
 padding: 7px; /* セクションのパディング */
-background: #eee2d0 url(../image/emphasis_back3.gif); /* セクションの背景 */
+background: #eee2d0 url(emphasis_back3.jpg); /* セクションの背景 */
 }
 #main div.emphasis div.inner {
 padding: 1.1em 10px 1px; /* 内部のパディング（上、左右、下） */
@@ -317,7 +317,7 @@ background-color: #e4e0da; /* 見出しの背景色 */
 /* --- 強調セクション1（こげ茶） --- */
 #nav div.emphasis {
 padding: 8px 5px 5px; /* セクションのパディング（上、左右、下） */
-background: #6e6252 url(../image/box_back_umberbrown2.gif) repeat-x top; /* セクションの背景 */
+background: #6e6252 url(box_back_umberbrown2.jpg) repeat-x top; /* セクションの背景 */
 border: 1px #463f34 solid; /* セクションの境界線 */
 color: #f0f0f0; /* セクションの文字色 */
 }
@@ -333,7 +333,7 @@ color: #ffffff; /* リンクの文字色 */
 /* --- 強調セクション2（グレー） --- */
 #nav div.strong {
 padding: 8px 5px 5px; /* セクションのパディング（上、左右、下） */
-background: #f4f2ee url(../image/box_back_gray2.gif) repeat-x top; /* セクションの背景 */
+background: #f4f2ee url(box_back_gray2.jpg) repeat-x top; /* セクションの背景 */
 border: 1px #e4e0da solid; /* セクションの境界線 */
 }
 /* 見出し */
@@ -358,7 +358,7 @@ list-style-type: none;
 /* メニュー項目 */
 #nav div.subMenu ul.nl li {
 margin-bottom: 2px; /* 項目の下マージン */
-background: #f9f9f9 url(../image/ver_menu3_back.gif) repeat-x top; /* 項目の背景 */
+background: #f9f9f9 url(ver_menu3_back.jpg) repeat-x top; /* 項目の背景 */
 border: 1px solid; /* 項目の境界線（太さ、スタイル） */
 border-color: #ffffff #202020 #202020 #ffffff; /* 項目の境界線色（上右下左） */
 }
@@ -367,13 +367,13 @@ border-color: #ffffff #202020 #202020 #ffffff; /* 項目の境界線色（上右
 display: block;
 position: relative; /* IE6用 */
 padding: 12px 5px 12px 15px; /* リンクエリアのパディング（上右下左） */
-background: url(../image/ver_menu3_off.gif) no-repeat 4px; /* リンクエリアの背景（三角マーク） */
+background: url(ver_menu3_off.jpg) no-repeat 4px; /* リンクエリアの背景（三角マーク） */
 color: #404040; /* 文字色 */
 text-decoration: none; /* テキストの下線（なし） */
 }
 /* ポイント時の設定 */
 #nav div.subMenu ul.nl li a:hover {
-background: url(../image/ver_menu3_on.gif) no-repeat 4px; /* ポイント時の背景（三角マーク） */
+background: url(ver_menu3_on.jpg) no-repeat 4px; /* ポイント時の背景（三角マーク） */
 text-decoration: underline; /* テキストの下線（あり） */
 }
 
@@ -407,7 +407,7 @@ line-height: 100%; /* 行の高さ（上書き） */
 display: block;
 position: relative; /* IE6用 */
 padding: 12px 2px; /* リンクエリアのパディング（上下、左右） */
-background: #dc3a01 url(../image/form_back2_off.gif) repeat-x top; /* リンクエリアの背景 */
+background: #dc3a01 url(form_back2_off.jpg) repeat-x top; /* リンクエリアの背景 */
 font-size: 110%; /* リンクエリアの文字サイズ */
 font-weight: bold; /* 文字の太さ（太字） */
 color: #ffffff; /* リンクエリアの文字色 */
@@ -415,7 +415,7 @@ text-decoration: none; /* テキストの下線（なし） */
 }
 /* ポイント時の設定 */
 #nav div.contact p.form a:hover {
-background: #e14a03 url(../image/form_back2_on.gif) repeat-x top; /* ポイント時の背景 */
+background: #e14a03 url(form_back2_on.jpg) repeat-x top; /* ポイント時の背景 */
 }
 
 /* --- ▲サイドバー内の設定終了 --- */
@@ -450,7 +450,7 @@ text-align: center;
 /* --- メニュー項目 --- */
 #footer ul.nl li {
 padding: 0 4px 0 8px; /* 項目のパディング（上右下左） */
-background: url(../image/menu_line_gray.gif) no-repeat left; /* 項目の背景（区切り線） */
+background: url(menu_line_gray.jpg) no-repeat left; /* 項目の背景（区切り線） */
 display: inline;
 }
 /* 最初の項目 */
